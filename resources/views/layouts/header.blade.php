@@ -32,8 +32,8 @@
             <a href="{{ url('leads') }}" class="sidebar-link {{ Request::is('leads*') ? 'active' : '' }}">Leads</a>
             <a href="{{ url('all-leads-report') }}"
                 class="sidebar-link {{ Request::is('all-leads-report') ? 'active' : '' }}">All Leads Report</a>
-            <a href="{{ url('individual-lead') }}"
-                class="sidebar-link {{ Request::is('individual-lead') ? 'active' : '' }}">Individual Lead</a>
+            <!-- <a href="{{ url('individual-lead') }}"
+                class="sidebar-link {{ Request::is('individual-lead') ? 'active' : '' }}">Individual Lead</a> -->
             <a href="{{ url('called-pending-documents') }}"
                 class="sidebar-link {{ Request::is('called-pending-documents') ? 'active' : '' }}">Called / Pending
                 Documents</a>
@@ -50,9 +50,9 @@
                 class="sidebar-link {{ Request::is('refund-cases') ? 'active' : '' }}">Refund Cases</a>
             <a href="{{ url('all-refund-cases') }}"
                 class="sidebar-link {{ Request::is('all-refund-cases') ? 'active' : '' }}">All Refund Cases</a>
-            <a href="{{ url('individual-lead-refund-cases') }}"
+            <!-- <a href="{{ url('individual-lead-refund-cases') }}"
                 class="sidebar-link {{ Request::is('individual-lead-refund-cases') ? 'active' : '' }}">Individual Lead (Refund
-                Cases)</a>
+                Cases)</a> -->
         </div>
 
         <!-- KASB Website Leads -->
