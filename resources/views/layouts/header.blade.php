@@ -17,7 +17,7 @@
         <h4>PSX CRM</h4>
 
         <!-- Performance Dashboard (no collapse) -->
-        <a href="{{ url('performance-dashboard') }}" class="{{ Request::is('performance-dashboard') ? 'active' : '' }}">
+        <a href="{{ url('/') }}" class="{{ Request::is('/') ? 'active' : '' }}">
             Performance Dashboard
         </a>
 
@@ -32,20 +32,21 @@
             <a href="{{ url('leads') }}" class="sidebar-link {{ Request::is('leads*') ? 'active' : '' }}">Leads</a>
             <a href="{{ url('all-leads-report') }}"
                 class="sidebar-link {{ Request::is('all-leads-report') ? 'active' : '' }}">All Leads Report</a>
-            <!-- <a href="{{ url('individual-lead') }}"
-                class="sidebar-link {{ Request::is('individual-lead') ? 'active' : '' }}">Individual Lead</a> -->
+            <!-- <a href="{{ url('individual-lead') }}" class="sidebar-link {{ Request::is('individual-lead') ? 'active' : '' }}">Individual Lead</a> -->
             <a href="{{ url('called-pending-documents') }}"
-                class="sidebar-link {{ Request::is('called-pending-documents') ? 'active' : '' }}">Called / Pending
-                Documents</a>
+                class="sidebar-link {{ Request::is('called-pending-documents') ? 'active' : '' }}">
+                Called / Pending Documents
+            </a>
         </div>
 
         <!-- Refund Cases -->
         <a class="sidebar-parent" data-bs-toggle="collapse" href="#refundMenu" role="button"
-            aria-expanded="{{ Request::is('refund*') || Request::is('all-refund-cases') || Request::is('individual-lead-refund-cases') ? 'true' : 'false' }}" aria-controls="refundMenu">
+            aria-expanded="{{ Request::is('refund*') || Request::is('all-refund-cases') || Request::is('individual-lead-refund-cases') ? 'true' : 'false' }}"
+            aria-controls="refundMenu">
             Refund Cases
         </a>
-        <div class="collapse {{ Request::is('refund*') || Request::is('all-refund-cases') || Request::is('individual-lead-refund-cases') ? 'show' : '' }}" id="refundMenu"
-            data-bs-parent="#sidebarAccordion">
+        <div class="collapse {{ Request::is('refund*') || Request::is('all-refund-cases') || Request::is('individual-lead-refund-cases') ? 'show' : '' }}"
+            id="refundMenu" data-bs-parent="#sidebarAccordion">
             <a href="{{ url('refund-cases') }}"
                 class="sidebar-link {{ Request::is('refund-cases') ? 'active' : '' }}">Refund Cases</a>
             <a href="{{ url('all-refund-cases') }}"
@@ -57,10 +58,12 @@
 
         <!-- KASB Website Leads -->
         <a class="sidebar-parent" data-bs-toggle="collapse" href="#kasbMenu" role="button"
-            aria-expanded="{{ Request::is('kasb*') || Request::is('kasb-website-leads-report') ? 'true' : 'false' }}" aria-controls="kasbMenu">
+            aria-expanded="{{ Request::is('kasb*') || Request::is('kasb-website-leads-report') ? 'true' : 'false' }}"
+            aria-controls="kasbMenu">
             KASB Website Leads
         </a>
-        <div class="collapse {{ Request::is('kasb*') || Request::is('kasb-website-leads-report') ? 'show' : '' }}" id="kasbMenu" data-bs-parent="#sidebarAccordion">
+        <div class="collapse {{ Request::is('kasb*') || Request::is('kasb-website-leads-report') ? 'show' : '' }}"
+            id="kasbMenu" data-bs-parent="#sidebarAccordion">
             <a href="{{ url('kasb-open-psx') }}"
                 class="sidebar-link {{ Request::is('kasb-open-psx') ? 'active' : '' }}">Open PSX Account</a>
             <a href="{{ url('kasb-website-leads-report') }}"
@@ -70,13 +73,16 @@
 
         <!-- KYC Form -->
         <a class="sidebar-parent" data-bs-toggle="collapse" href="#kycMenu" role="button"
-            aria-expanded="{{ Request::is('kyc*') || Request::is('kyc-form-report') ? 'true' : 'false' }}" aria-controls="kycMenu">
+            aria-expanded="{{ Request::is('kyc*') || Request::is('kyc-form-report') ? 'true' : 'false' }}"
+            aria-controls="kycMenu">
             KYC Form
         </a>
-        <div class="collapse {{ Request::is('kyc*') || Request::is('kyc-form-report') ? 'show' : '' }}" id="kycMenu" data-bs-parent="#sidebarAccordion">
+        <div class="collapse {{ Request::is('kyc*') || Request::is('kyc-form-report') ? 'show' : '' }}" id="kycMenu"
+            data-bs-parent="#sidebarAccordion">
             <a href="{{ url('kyc-form') }}" class="sidebar-link {{ Request::is('kyc-form') ? 'active' : '' }}">Know Your
                 Customer (KYC)</a>
-            <a href="{{ url('kyc-form-report') }}" class="sidebar-link {{ Request::is('kyc-form-report') ? 'active' : '' }}">KYC
+            <a href="{{ url('kyc-form-report') }}"
+                class="sidebar-link {{ Request::is('kyc-form-report') ? 'active' : '' }}">KYC
                 Form Report</a>
         </div>
 

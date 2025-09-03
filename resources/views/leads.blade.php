@@ -5,7 +5,7 @@
 <div class="main-content">
     <div class="container-fluid my-4">
         <form>
-
+            <h2 class="heading">Leads</h2>
             <!-- Basic Client Details -->
             <div class="section-box">
                 <div class="section-header">Basic Client Details</div>
@@ -368,24 +368,28 @@
                     </div>
                     <div class="col-md-3">
                         <label>High Risk</label>
-                        <div class="form-check">
-                            <input type="radio" name="risk" class="form-check-input">
-                            <label class="form-check-label">Yes</label>
-                        </div>
-                        <div class="form-check">
-                            <input type="radio" name="risk" class="form-check-input">
-                            <label class="form-check-label">No</label>
+                        <div class="form-checkWrapper">
+                            <div class="form-check">
+                                <input type="radio" name="risk" class="form-check-input">
+                                <label class="form-check-label">Yes</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" name="risk" class="form-check-input">
+                                <label class="form-check-label">No</label>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <label>OTP Verified</label>
-                        <div class="form-check">
-                            <input type="radio" name="otp" class="form-check-input">
-                            <label class="form-check-label">Yes</label>
-                        </div>
-                        <div class="form-check">
-                            <input type="radio" name="otp" class="form-check-input">
-                            <label class="form-check-label">No</label>
+                        <div class="form-checkWrapper">
+                            <div class="form-check">
+                                <input type="radio" name="otp" class="form-check-input">
+                                <label class="form-check-label">Yes</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" name="otp" class="form-check-input">
+                                <label class="form-check-label">No</label>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-3">
@@ -394,13 +398,15 @@
                     </div>
                     <div class="col-md-3">
                         <label>Documents Submitted</label>
-                        <div class="form-check">
-                            <input type="radio" name="documents-submitted" class="form-check-input">
-                            <label class="form-check-label">Yes</label>
-                        </div>
-                        <div class="form-check">
-                            <input type="radio" name="documents-submitted" class="form-check-input">
-                            <label class="form-check-label">No</label>
+                        <div class="form-checkWrapper">
+                            <div class="form-check">
+                                <input type="radio" name="documents-submitted" class="form-check-input">
+                                <label class="form-check-label">Yes</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" name="documents-submitted" class="form-check-input">
+                                <label class="form-check-label">No</label>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -410,27 +416,27 @@
             <div class="section-box">
                 <div class="section-header">CS Agent Details</div>
                 <div class="section-body row g-3">
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <label>CS Agent Name</label>
                         <input type="text" class="form-control">
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <label>CS Agent Email</label>
                         <input type="email" class="form-control">
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <label>CS Agent Phone Number</label>
                         <input type="tel" class="form-control">
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <label>CS Agent WhatsApp Link</label>
                         <input type="url" class="form-control">
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <label>CS Agent Assigned Time</label>
                         <input type="datetime-local" class="form-control">
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <label>CS Agent</label>
                         <input type="text" class="form-control">
                     </div>
@@ -441,7 +447,7 @@
             <div class="section-box">
                 <div class="section-header">Account Manager Details</div>
                 <div class="section-body row g-3">
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <label>Retail Account Manager</label>
                         <select class="form-select">
                             <option hidden>Select</option>
@@ -472,11 +478,11 @@
                             <option>SYED FAHIM RAZA</option>
                         </select>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <label>Account Manager Email</label>
                         <input type="email" class="form-control">
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <label>Account Manager Contact</label>
                         <input type="tel" class="form-control">
                     </div>
@@ -623,24 +629,28 @@
                 <div class="section-body row g-3">
                     <div class="col-md-3">
                         <label>Discrepancy</label>
-                        <div class="form-check">
-                            <input type="radio" name="disc" class="form-check-input">
-                            <label class="form-check-label">Yes</label>
-                        </div>
-                        <div class="form-check">
-                            <input type="radio" name="disc" class="form-check-input">
-                            <label class="form-check-label">No</label>
+                        <div class="form-checkWrapper">
+                            <div class="form-check">
+                                <input type="radio" name="disc" class="form-check-input">
+                                <label class="form-check-label">Yes</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" name="disc" class="form-check-input">
+                                <label class="form-check-label">No</label>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <label>Verified & Check by Compliance</label>
-                        <div class="form-check">
-                            <input type="radio" name="verify" class="form-check-input">
-                            <label class="form-check-label">Yes</label>
-                        </div>
-                        <div class="form-check">
-                            <input type="radio" name="verify" class="form-check-input">
-                            <label class="form-check-label">No</label>
+                        <div class="form-checkWrapper">
+                            <div class="form-check">
+                                <input type="radio" name="verify" class="form-check-input">
+                                <label class="form-check-label">Yes</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" name="verify" class="form-check-input">
+                                <label class="form-check-label">No</label>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-3">
@@ -711,13 +721,15 @@
                 <div class="section-body row g-3">
                     <div class="col-md-3">
                         <label>Operations Discrepancy</label>
-                        <div class="form-check">
-                            <input type="radio" name="ops" class="form-check-input">
-                            <label class="form-check-label">Yes</label>
-                        </div>
-                        <div class="form-check">
-                            <input type="radio" name="ops" class="form-check-input">
-                            <label class="form-check-label">No</label>
+                        <div class="form-checkWrapper">
+                            <div class="form-check">
+                                <input type="radio" name="ops" class="form-check-input">
+                                <label class="form-check-label">Yes</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" name="ops" class="form-check-input">
+                                <label class="form-check-label">No</label>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-3">
@@ -740,22 +752,24 @@
                     </div>
                     <div class="col-md-3">
                         <label>Discrepancy Resolved</label>
-                        <div class="form-check">
-                            <input type="radio" name="resolved" class="form-check-input">
-                            <label class="form-check-label">Yes</label>
-                        </div>
-                        <div class="form-check">
-                            <input type="radio" name="resolved" class="form-check-input">
-                            <label class="form-check-label">No</label>
+                        <div class="form-checkWrapper">
+                            <div class="form-check">
+                                <input type="radio" name="resolved" class="form-check-input">
+                                <label class="form-check-label">Yes</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" name="resolved" class="form-check-input">
+                                <label class="form-check-label">No</label>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Submit Buttons -->
-            <div class="text-center my-3">
-                <button type="submit" class="btn btn-submit">Submit</button>
-                <button type="reset" class="btn btn-reset">Reset</button>
+            <div class="btnWrapper justify-content-center my-3">
+                <button type="submit" class="themeBtn">Submit</button>
+                <button type="reset" class="themeBtn themeBtn--light">Reset</button>
             </div>
 
         </form>

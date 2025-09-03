@@ -6,7 +6,7 @@
     <div class="container-fluid my-4">
         <!-- Topbar -->
         <div class="topbar">
-            <h2>All Leads Report</h2>
+            <h2 class="heading">All Refund Cases</h2>
             <div class="topbar-actions">
                 <button class="themeBtn"><i class="fa fa-plus"></i></button>
                 <div class="topbar-actions__dropdown dropdown">
