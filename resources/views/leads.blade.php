@@ -5,7 +5,11 @@
 <div class="main-content">
     <div class="container-fluid my-4">
         <form>
-            <h2 class="heading">Leads</h2>
+            <div class="main-content__top">
+                <h2 class="heading">Leads</h2>
+                <a href="" class="themeBtn" id="menuBtn"><i class="fa-solid fa-bars"></i></a>
+            </div>
+
             <!-- Basic Client Details -->
             <div class="section-box">
                 <div class="section-header">Basic Client Details</div>

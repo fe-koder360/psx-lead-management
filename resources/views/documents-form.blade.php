@@ -5,7 +5,10 @@
 <div class="main-content">
     <div class="container-fluid my-4">
         <form>
-            <h2 class="heading">Documents submission Form</h2>
+            <div class="main-content__top">
+                <h2 class="heading">Documents submission Form</h2>
+                <a href="" class="themeBtn" id="menuBtn"><i class="fa-solid fa-bars"></i></a>
+            </div>
             <!-- Basic Details -->
             <div class="section-box">
                 <div class="section-header">Basic Details</div>

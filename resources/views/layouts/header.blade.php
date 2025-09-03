@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css">
     <link rel="stylesheet" href="{{ asset('assets/css/custom.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
 </head>
 
 <body>
@@ -98,5 +99,14 @@
             <a href="{{ url('documents-report') }}"
                 class="sidebar-link {{ Request::is('documents-report') ? 'active' : '' }}">Documents submission Form
                 Report</a>
+        </div>
+        <div class="sidebar-bottom">
+            <div class="sidebar-bottom__profile">
+                <img src="{{ asset('assets/images/profile.png') }}" alt="image" class="img-fluid">
+                <h4>fizza.hassan</h4>
+            </div>
+            <a href="" class="sidebar-bottom__icon">
+                <i class="fa-solid fa-power-off"></i>
+            </a>
         </div>
     </div>

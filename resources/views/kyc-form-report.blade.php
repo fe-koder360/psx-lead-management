@@ -8,7 +8,8 @@
         <div class="topbar">
             <h2>All Leads Report</h2>
             <div class="topbar-actions">
-                <button class="themeBtn"><i class="fa fa-plus"></i></button>
+                <!-- <button class="themeBtn"><i class="fa fa-plus"></i></button> -->
+                <a href="" class="themeBtn" id="menuBtn"><i class="fa-solid fa-bars"></i></a>
                 <div class="topbar-actions__dropdown dropdown">
                     <button class="themeBtn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <i class="fa-solid fa-ellipsis"></i>
